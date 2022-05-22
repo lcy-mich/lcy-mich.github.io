@@ -1,6 +1,8 @@
 html, body {
     max-width: 100%;
     overflow-x: hidden;
+    max-height: 100%;
+    overflow-y: hidden;
 }
 
 #bar {
@@ -49,9 +51,9 @@ html, body {
     z-index: 1;
     position:relative;
     margin-left:20%;
-    margin-top: 7%;
+    margin-top: 20%;
     width: 100%;
-    height: 1000vh;
+    height: 100vh;
 }
 li#current {
     font-family: Comic Sans MS, Helvetica, sans-serif;
